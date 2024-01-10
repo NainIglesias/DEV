@@ -18,6 +18,7 @@ boton.addEventListener("click", () => {
 
 });
  // Peticiones a la API de monster hunter.
+ // TODO filtrar por ancients  
 const xhr = new XMLHttpRequest();
 xhr.open("GET", "https://mhw-db.com/monsters");
 xhr.responseType = "json";
